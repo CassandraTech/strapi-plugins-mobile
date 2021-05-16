@@ -14,7 +14,7 @@ module.exports = {
    */
   tables: async (ctx) => {
     const rawBuilder = strapi.connections.default.raw(
-      "select * from core_store"
+      "select * from core_store;"
     );
     const response = await rawBuilder.then();
     const finalInformation = {}
