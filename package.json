@@ -1,25 +1,35 @@
 {
   "name": "strapi-plugin-mobile",
-  "version": "0.0.0",
-  "description": "This is the description of the plugin.",
+  "version": "0.0.1",
+  "description": "A Strapi plugin that serves entity metadata on a separate route",
   "strapi": {
     "name": "mobile",
     "icon": "plug",
     "description": "Description of mobile plugin."
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint": "^8.0.1"
+  },
+  "bugs": {
+    "url": "https://github.com/nirmalhk7/strapi-plugins-mobile/issues",
+    "email": "nirmalhk7@gmail.com"
+  },
   "author": {
-    "name": "A Strapi developer",
-    "email": "",
-    "url": ""
+    "name": "Nirmal Khedkar",
+    "email": "nirmalhk7@gmail.com",
+    "url": "https://nirmalhk7.tech"
   },
   "maintainers": [
     {
-      "name": "A Strapi developer",
-      "email": "",
-      "url": ""
+      "name": "Nirmal Khedkar",
+      "email": "nirmalhk7@gmail.com",
+      "url": "https://nirmalhk7.tech"
     }
   ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nirmalhk7/strapi-plugins-mobile.git"
+  },
   "engines": {
     "node": ">=10.16.0 <=14.x.x",
     "npm": ">=6.0.0"
