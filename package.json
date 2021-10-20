@@ -7,7 +7,9 @@
     "icon": "plug",
     "description": "Description of mobile plugin."
   },
-  "dependencies": {},
+  "dependencies": {
+    "eslint": "^8.0.1"
+  },
   "bugs": {
     "url": "https://github.com/nirmalhk7/strapi-plugins-mobile/issues",
     "email": "nirmalhk7@gmail.com"
